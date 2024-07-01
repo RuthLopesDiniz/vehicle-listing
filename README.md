@@ -7,6 +7,7 @@ Componentes
 O componente principal que gerencia o estado da aplicação e faz as requisições para obter os dados.
 
 Estado>>
+
 brands: Um objeto que armazena veículos agrupados por marca.
 cars: Um array que armazena todos os carros.
 loadingBrands: Um booleano que indica se os dados das marcas estão sendo carregados.
