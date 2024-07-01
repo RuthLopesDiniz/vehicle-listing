@@ -1,0 +1,13 @@
+.car-list {
+    margin: 20px 0;
+  }
+  
+  .car-list ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .car-list li {
+    margin-bottom: 5px;
+  }
+  
