@@ -4,7 +4,7 @@ module.exports = function(app) {
   app.use(
     '/cars_by_brand.json',
     createProxyMiddleware({
-      target: 'https://ruthlopesdiniz.github.io/car-by-brand/car-by-brand.json',
+      target: 'https://ruthlopesdiniz.github.io/car-by-brand/',
       changeOrigin: true,
     })
   );
