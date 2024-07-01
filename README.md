@@ -23,6 +23,8 @@ addCar: Adiciona um novo carro ao estado brands.
 Componente que recebe um objeto brands como prop e exibe uma lista de veículos agrupados por marca.
 O componente VehicleList é responsável por exibir uma lista de veículos agrupados por marcas. Cada marca é exibida com uma lista de veículos associada a ela, mostrando detalhes como modelo, ano, cor, tipo de combustível e número de portas.
 
+Reutilização: Este componente pode ser reutilizado em diferentes partes da aplicação onde seja necessário exibir uma lista de veículos agrupados por marca.
+
 Props>>
 brands: Objeto com veículos agrupados por marca.
 
